@@ -1,0 +1,129 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* Header segment */
+.header{
+    padding:20px 10% 20px 10%;
+    display:flex;
+    justify-content: space-between;
+    background-color:#1f2937;
+    align-items: center;
+    
+}
+.links{
+    display: flex;
+    gap:50px;
+}
+.logo{
+    color:#f9faf8;
+    font-size: 24px;
+}
+a{
+    text-decoration: none;
+    color:#e5e7eb;
+    font-size: 18px;
+}
+/* Top segment */
+.container1{
+    padding:5% 10% 5% 10%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#1f2937;
+    color:#e5e7eb;
+
+}
+.left1{
+    width:600px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#f9faf8;
+    margin:0;
+}
+button{
+   color:#f9faf8;
+   font-size: 16px;;
+   background-color: #3882f6;
+   text-decoration: none;
+   border:none;
+   padding:10px;
+   border-radius: 10px;
+   width:120px;
+   font-weight: 500;
+
+}
+img{
+    width:600px;
+    background-color: white;
+    height:300px;
+}
+/* Some random information */
+
+.container2{
+    padding:40px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 36px;
+    color:#1f2937;
+    font-weight: bold;
+    }
+
+.boxes{
+    padding:40px;
+    display:flex;
+    justify-content: center;
+    gap:100px;
+
+}
+.box{
+    width:170px;
+    height:170px;
+    border:4px #3882f6 solid;
+    border-radius: 20px;
+}
+.p1{
+    font-size: 14px;
+    max-width: 170px;
+    text-align: center;
+    color:#1f2937
+}
+/* Quote */
+
+.container3{
+    display:flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    padding:80px 300px 80px 300px;
+}
+
+.p2{
+    align-self: flex-end;
+    padding:30px;
+    font-weight: 700;
+    font-size: 18px;
+}
+/* 1f2937 36px bold infor text header / quote text
+3882f6 button 
+e5e7eb  section quote hero secondary text header link
+f9faf8 header logo text*/
+.footer{
+    padding: 20px;
+    background-color:#1f2937;
+    color:#e5e7eb;
+    text-align: center;
+}
