@@ -1,8 +1,15 @@
+@font-face {
+    font-family: agency;
+    src: url(fonts/AgencyFB-Bold.ttf);
+}
+
 body{
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Saira Condensed', sans-serif;
+    /* Sara Condensed */
+    /* Agency FB */
 }
 .container{
     display:flex;
@@ -11,7 +18,8 @@ body{
 }
 /* Header segment */
 .header{
-    padding:20px 10% 20px 10%;
+    font-family:'agency','Courier New', Courier, monospace;
+    padding:20px 15% 20px 15%;
     display:flex;
     justify-content: space-between;
     background-color:#1f2937;
@@ -23,18 +31,18 @@ body{
     gap:50px;
 }
 .logo{
+    font-family: Agency;
     color:#f9faf8;
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 36px;
 }
 a{
     text-decoration: none;
     color:#e5e7eb;
-    font-size: 18px;
+    font-size: 24px;
 }
 /* Top segment */
 .container1{
-    padding:5% 10% 5% 10%;
+    padding:5% 15% 5% 15%;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -66,10 +74,18 @@ button{
    font-weight: 500;
 
 }
-img{
+.main-img{
     width:600px;
     background-color: white;
     height:300px;
+    border-radius: 30px;
+}
+img{
+    width: 90px;
+    height: 90px;
+}
+p{
+    font-size: 24px;
 }
 /* Some random information */
 
@@ -90,17 +106,25 @@ img{
     gap:100px;
 
 }
+.outerbox{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
 .box{
-    width:200px;
-    height:200px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:180px;
+    height:180px;
     border:5px #3882f6 solid;
     border-radius: 20px;
 }
 .p1{
-    font-size: 14px;
+    font-size: 18px;
     max-width: 170px;
     text-align: center;
-    color:#1f2937
+    color:#1f2937;
 }
 /* Quote */
 
@@ -122,14 +146,19 @@ img{
 /* Blue box */
 .container4{
     background-color: #3882f6;
-    padding:50px 150px 50px 150px;
+    padding:50px 120px 50px 120px;
     display: flex;
     justify-content: space-between;
     margin:80px 200px 80px 200px;
     border-radius: 10px;
     color:#f9faf8;
     align-items: center;
-    font-size: 18px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+.left2 p{
+    padding:0;
+    margin-bottom:0;
 }
 .container4 button{
     border:white 2px solid;
@@ -140,8 +169,21 @@ img{
 3882f6 button 
 e5e7eb  section quote hero secondary text header link
 f9faf8 header logo text*/
+
+
+/* Interaction */
+a:hover{
+    color:white;
+    border-bottom: 1px white solid;
+}
+
+button:hover{
+    color:#3882f6;
+    background-color: white;
+}
+/* Footer below */
 .footer{
-    padding: 50px;
+    padding: 30px;
     background-color:#1f2937;
     color:#e5e7eb;
     text-align: center;
